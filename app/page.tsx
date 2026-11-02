@@ -2,8 +2,8 @@
 
 import { useState } from 'react'
 
-const WHATSAPP_NUMBER = '917087859222'
-const phone = '+91 7087859222'
+const WHATSAPP_NUMBER = '917707990199'
+const phone = '+91 7707990199'
 
 function whatsapp(message: string) {
   return `https://wa.me/${WHATSAPP_NUMBER}?text=${encodeURIComponent(message)}`
